@@ -1,0 +1,125 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #5b2c83, #7a3db0);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.login-left {
+  flex: 1;
+  background: #f9f9fb;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-left img {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.login-left h2 {
+  color: #5b2c83;
+  margin-bottom: 10px;
+}
+
+.login-left p {
+  color: #666;
+}
+
+.login-right {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+  color: #333;
+}
+
+.login-right h1 {
+  color: #5b2c83;
+  margin-bottom: 20px;
+}
+
+.login-right label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #5b2c83;
+}
+
+.login-right input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-left img{
+    border-radius: 100px;
+    border: 10px solid #39094d;
+    border-style: double;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #5b2c83;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7a3db0;
+}
+
+.forgot-link, .signup-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.forgot-link a, .signup-link a {
+  color: #5b2c83;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-link {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.home-link a {
+  color: #5b2c83;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@keyframes zoomIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  50% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .login-page {
+    flex-direction: column;
+  }
+}
