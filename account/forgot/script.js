@@ -23,7 +23,7 @@ if (submitbtn) {
 
         
         setTimeout(() => {
-            window.location.href = '/account/signin.html';
+            window.location.href = '../signin.html';
         }, 2000);
     });
 }

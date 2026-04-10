@@ -73,7 +73,7 @@ if (submitbtn) {
         errormessage.innerHTML = 'Registration successful! Redirecting to login...';
         errormessage.style.color = 'green';
         setTimeout(() => {
-            window.location.href = '/account/signin.html';
+            window.location.href = '../signin.html';
         }, 2000);
     });
 }
